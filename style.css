@@ -1,0 +1,274 @@
+/* UNIVERSAL STYLING */
+body {
+  background-color: #161e67;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* CSS NAVBAR */
+.navigation {
+  background-color: #161e67;
+}
+
+#cart {
+  color: #ffffff;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 55%;
+  transform: translatex(-50%);
+  color: #ff5c5c;
+  font-size: 30px;
+}
+
+/* SLIDESHOW CSS*/
+.jam {
+  width: 600px;
+  height: auto;
+}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #161e67;
+  opacity: 35%;
+}
+
+.text {
+  font-size: 50px;
+  color: #ff5c5c;
+  background-color: #161e67;
+  opacity: 75%;
+  padding: 8px 12px;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.fadeJam {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* CSS FOR ABOUT PAGE */
+.mission1 {
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+  margin-right: 30%;
+  justify-content: flex-start;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px 3px #161e67;
+  margin-bottom: 5%;
+}
+
+.mission2 {
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+  justify-content: flex-end;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px 3px #161e67;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+
+.about-us {
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  padding: 5%;
+  box-shadow: 5px 5px 10px 3px #ff5c5c;
+}
+.about-title {
+  width: 100%;
+  height: 10%;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 800;
+  color: #161e67;
+  background-color: #ff5c5c;
+}
+.mission-title {
+  padding-top: 10%;
+  color: #161e67;
+  font-weight: 800;
+  text-align: center;
+}
+.about {
+  background-color: #161e67;
+}
+.mission {
+  background-color: #ff5c5c;
+  margin-top: 5%;
+  text-align: center;
+}
+
+/* PRODUCTS CSS */
+.col-sm-3 {
+  background-color: #161e67;
+  text-align: center;
+}
+
+.topHeading {
+  color: #ff5c5c;
+  text-align: center;
+  font-size: 65px;
+}
+
+.card-title {
+  color: #ff5c5c;
+  text-align: center;
+}
+
+.card-img-top {
+  border-radius: 40%;
+}
+
+/* CONTACT US CSS */
+
+.form-control:focus {
+  border-color: gray;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.01) inset,
+    0px 0px 8px rgba(51, 143, 25, 0.9);
+}
+i:hover {
+  color: #ff5c5c;
+}
+.body,
+#card {
+  background-color: #161e67;
+}
+#card {
+  width: 75%;
+}
+
+#img {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+#img:hover {
+  transform: scale(1.25);
+  transition: 0.5s;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* CSS FOR FOOTER */
+.footer {
+  background: #161e67;
+  color: white;
+}
+
+.footerLink {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.border-bottom {
+  color: #ff5c5c;
+  size: 3px;
+}
+
+.footerLink:active {
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: none;
+  color: #ff5c5c;
+}
+
+.about-company i {
+  font-size: 20px;
+}
+
+.about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+
+.about-company a:hover {
+  color: #ff5c5c;
+}
+
+.location {
+  font-size: 15px;
+}
+
+.copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
