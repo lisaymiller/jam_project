@@ -16,7 +16,7 @@ p {
   text-align: center;
 }
 
-/* CSS NAVBAR */
+/* NAVBAR CSS */
 .navigation {
   background-color: #161e67;
   font-size: 20px;
@@ -32,6 +32,24 @@ p {
   transform: translatex(-50%);
   color: #ff5c5c;
   font-size: 30px;
+}
+
+/* JUMBOTRON CSS */
+
+.lead {
+  text-align: center;
+  font-family: sans-serif;
+  font-size-adjust: 50%;
+}
+.jumbotron {
+  background-image: url("images/products/raspberry.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 45vh;
+  width: 100%;
+
+  color: white;
 }
 
 /* SLIDESHOW CSS*/
@@ -144,36 +162,22 @@ p {
 }
 
 /* CSS FOR ABOUT PAGE */
-.mission1 {
-  width: 80%;
-  height: auto;
-  margin-top: 5%;
-  margin-right: 30%;
-  justify-content: flex-start;
-  border: 2px solid white;
-  box-shadow: 5px 5px 10px 3px #161e67;
-  margin-bottom: 5%;
+.mission-text {
+  background-color: #ffffff;
+  opacity: 0.7;
+  color: black;
+  font-weight: 600;
 }
-
-.mission2 {
-  width: 80%;
-  height: auto;
-  margin-top: 5%;
-  justify-content: flex-end;
-  border: 2px solid white;
-  box-shadow: 5px 5px 10px 3px #161e67;
-  margin-bottom: 5%;
-  margin-left: 20%;
-}
-
 .about-us {
   align-items: center;
   font-weight: 600;
-  color: white;
+  color: black;
   text-align: center;
   border: 2px solid white;
   padding: 5%;
   box-shadow: 5px 5px 10px 3px #ff5c5c;
+  background-color: white;
+  opacity: 0.8;
 }
 .about-title {
   width: 100%;
@@ -183,20 +187,41 @@ p {
   font-weight: 800;
   color: #161e67;
   background-color: #ff5c5c;
+  opacity: 0.8;
 }
 .mission-title {
   padding-top: 10%;
-  color: #161e67;
+  color: #ff5c5c;
   font-weight: 800;
   text-align: center;
+  text-shadow: 3px 3px white;
 }
 .about {
-  background-color: #161e67;
+  background-image: url("images/products/superberry.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .mission {
-  background-color: #ff5c5c;
+  background-image: url("images/products/blueberry.png");
   margin-top: 5%;
   text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+.values-title {
+  color: #ff5c5c;
+  font-weight: 600;
+}
+.values-text {
+  font-weight: 600;
+  color: black;
+}
+.values-list {
+  background-color: #ffffff;
+  opacity: 0.8;
 }
 
 /* PRODUCTS CSS */
@@ -280,23 +305,10 @@ i:hover {
   color: #ff5c5c;
 }
 
-.about-company i {
-  font-size: 20px;
-}
-
-.about-company a {
-  color: white;
-  transition: color 0.2s;
-}
-
-.about-company a:hover {
+.about-p {
   color: #ff5c5c;
-}
-
-.location {
   font-size: 15px;
 }
-
 .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
