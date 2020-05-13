@@ -233,7 +233,7 @@ p {
 .topHeading {
   color: #ff5c5c;
   text-align: center;
-  font-size: 65px;
+  font-size: 75px;
 }
 
 .card-title {
@@ -242,7 +242,7 @@ p {
 }
 
 .card-img-top {
-  border-radius: 40%;
+  border-radius: 50%;
 }
 
 .card-text {
