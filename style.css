@@ -84,6 +84,7 @@ h1 {
 .jam {
   width: 600px;
   height: auto;
+  border-radius: 6px;
 }
 
 .slideshow-container {
@@ -228,21 +229,6 @@ h1 {
   text-align: center;
   text-shadow: 3px 3px white;
 }
-/* .about {
-  background-image: url("images/products/superberry.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.mission {
-  background-image: url("images/products/blueberry.png");
-  margin-top: 5%;
-  text-align: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-} */
 
 .values-title {
   color: #ff5c5c;
@@ -252,14 +238,95 @@ h1 {
 .values-text {
   font-weight: 600;
   color: black;
-  padding: 5%;
 }
 
 .values-list {
+  padding: 5%;
   background-color: #ffffff;
   opacity: 0.8;
   box-shadow: 5px 5px 10px 3px #ff5c5c;
   border-radius: 4px;
+}
+
+.image-zach {
+  width: 30%;
+  height: 60%;
+  margin: 5%;
+  margin-left: 35%;
+}
+.image-pasha {
+  width: 30%;
+  height: 60%;
+  margin: 5%;
+  margin-left: 35%;
+}
+.card {
+  padding: 5%;
+  background-color: #ffffff;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px 3px #ff5c5c;
+  border-radius: 4px;
+}
+.card-text {
+  display: inline;
+}
+.roll-in-left {
+  -webkit-animation: roll-in-left 1s ease-out 1s both;
+  animation: roll-in-left 1s ease-out 1s both;
+}
+
+@-webkit-keyframes roll-in-left {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-left {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.roll-in-right {
+  -webkit-animation: roll-in-right 1s ease-out 1s both;
+  animation: roll-in-right 1s ease-out 1s both;
+}
+
+@-webkit-keyframes roll-in-right {
+  0% {
+    -webkit-transform: translateX(800px) rotate(540deg);
+    transform: translateX(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-right {
+  0% {
+    -webkit-transform: translateX(800px) rotate(540deg);
+    transform: translateX(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
 }
 
 /* PRODUCTS CSS */
