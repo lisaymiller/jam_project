@@ -23,70 +23,75 @@
 <body>
 
 <!-- Nav bar -->
-<div class="navigation">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/assets/jamsjellieslogo.png" width="150" height="150" class="d-inline-block align-top"
-            alt="Maher & Hall Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">Home</a>
-          <a class="nav-item nav-link" href="aboutpage.html">About</a>
-          <a class="nav-item nav-link" href="productspage.html">Products</a>
-          <a class="nav-item nav-link" href="contactpage.html">Contact Us</a>
-        </div>
+  <div class="sidenav">
+          <a href="index.html">Home</a>
+          <a href="aboutpage.html">About</a>
+          <a href="productspage.html">Products</a>
+          <a  href="contactpage.html">Contact Us</a>
           <a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
-      </div>
-    </nav>
-</div>
+  </div>
 
 <!--Jumbotron -->
-<div class="container">
-  <div class="jumbotron">
-        <h3 class="display-4 text-center">Welcome to Maher and Hall's Famous Jams and Jellies</h3>
-        <p class="lead">
-            Here at Maher and Hall's Famous Jams and Jellies we offer the best jam and jelly flavor choices in the city. We are always coming up with a new flavor, so not one flavor will ever go unnoticed.
-        </p>
-        </div>
+<div class="jumbotron">
+  <h3 class="heading">Welcome to <br>Maher and Hall's <br>Famous Jams and Jellies</h3>
+</div>
 
+<!-- Intro -->
+<div class="container">
+  <div class="intro">
+    <p>Here at Maher and Hall's Famous Jams and Jellies we offer the best jam and jelly flavor choices in the city. We are always coming up with a new flavor, so not one flavor will ever go unnoticed.
+    </p>
+    <h1>WE BELIEVE STRONGLY IN: </h1>
+    <div>
+    <br>
+    <strong class="values-title">&#10004;Integrity </strong>
+    <br>
+    <strong class="values-title">&#10004;Sustainability </strong>
+    <br>
+    <strong class="values-title">&#10004;Commitment </strong>
+    <br>
+    <strong class="values-title">&#10004;Consistency</strong>
+    </div>
+    <br>
+    <h1>See some of our best work, and what others have to say...</h1>
+    <div class="border-bottom"></div>
+    <br>
+  </div>
 </div>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
     <!-- Full-width images with number and caption text -->
+
         <div class="mySlides fadeJam">
             <img src="images/products/grapejelly.png" class="jam" alt="Displaying grapejelly.png">
             <div class="text">Grape Jelly</div>
+        </div>
+
+        <div class="mySlides fadeJam">
+          <img src="images/testimonials/s.png" class="jam"  alt="Displaying customer S. Ortiz's review">
+          <div class="testext">Hear what Shannon Ortiz has to say</div>
+        </div>
+
+        <div class="mySlides fadeJam">
+          <img src="images/products/Strawberry.png" class="jam">
+          <div class="text">Strawberry Jelly</div>
+        </div>
+
+        <div class="mySlides fadeJam">
+          <img src="images/testimonials/j.png" class="jam" alt="Displaying customer J. Valdez's review">
+          <div class="testext">Hear what Joseph Valdez has to say</div>
+        </div>
+
+        <div class="mySlides fadeJam">
+          <img src="images/products/applebutter.png" class="jam">
+          <div class="text">Apple Butter</div>
         </div>
         
         <div class="mySlides fadeJam">
             <img src="images/testimonials/c.png" class="jam" alt="Displaying customer C. Robinson's review">
             <div class="testext">Hear what C. Robinson has to say</div>
-        </div>
-
-        <div class="mySlides fadeJam">
-            <img src="images/products/Strawberry.png" class="jam">
-            <div class="text">Strawberry Jelly</div>
-        </div>
-
-        <div class="mySlides fadeJam">
-            <img src="images/testimonials/j.png" class="jam" alt="Displaying customer J. Valdez's review">
-            <div class="testext">Hear what Joseph Valdez has to say</div>
-        </div>
-
-        <div class="mySlides fadeJam">
-            <img src="images/products/applebutter.png" class="jam">
-            <div class="text">Apple Butter</div>
-        </div>
-
-        <div class="mySlides fadeJam">
-            <img src="images/testimonials/s.png" class="jam"  alt="Displaying customer S. Ortiz's review">
-            <div class="testext">Hear what Shannon Ortiz has to say</div>
         </div>
 
         <div class="mySlides fadeJam">
@@ -115,12 +120,13 @@
 <div class="mt-5 pt-5 pb-5 footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-5 col-xs-12 about-company">
-        <h1>Maher and Hall's Jam & Jellies</h1>
-        <p class="about-p">(704) 123-4567
-        <br>info@MHJamsandJellies.com</p>
+      <div class="col-lg-4 col-xs-12 about-company">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/assets/jamsjellieslogo.png" width="175" height="175" class="d-inline-block align-top"
+              alt="Maher & Hall Logo">
+        </a>
       </div>
-      <div class="col-lg-3 col-xs-12 links">
+      <div class="col-lg-4 col-xs-12 links">
         <h4 class="mt-lg-0 mt-sm-3 border-bottom">Quick Links</h4>
           <ul class="m-0 p-0">
               <a href="index.html" class="footerLink">
@@ -147,11 +153,9 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.568029751815!2d-80.8578516852674!3d35.21722736288734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f7f9fa0cf8b%3A0xba7da3bc2f70f979!2s1414%20S%20Tryon%20St%2C%20Charlotte%2C%20NC%2028203!5e0!3m2!1sen!2sus!4v1589311418405!5m2!1sen!2sus" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
     </div>
-    <div class="row mt-5">
       <div class="col copyright">
         <p><small class="text-white-50">© Maher and Hall's Jam & Jellies 2020. All Rights Reserved.</small></p>
       </div>
-    </div>
   </div>
   </div>
 

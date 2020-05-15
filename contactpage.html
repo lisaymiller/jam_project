@@ -22,29 +22,21 @@
 <body class="body">
 
 <!-- Nav bar -->
-<div class="navigation">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/assets/jamsjellieslogo.png" width="150" height="150" class="d-inline-block align-top"
-          alt="Maher & Hall Logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="aboutpage.html">About</a>
-        <a class="nav-item nav-link" href="productspage.html">Products</a>
-        <a class="nav-item nav-link active" href="contactpage.html">Contact Us</a>
-      </div>
-        <a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
-    </div>
-  </nav>
+<div class="sidenav">
+  <a href="index.html">Home</a>
+  <a href="aboutpage.html">About</a>
+  <a href="productspage.html">Products</a>
+  <a  href="contactpage.html">Contact Us</a>
+  <a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
+</div>
+
+<!--Jumbotron -->
+<div class="jumbotron">
+  <h3 class="heading">Contact<br>Us</h3>
 </div>
 
 <!-- contact -->
-  <div class="container" style="width: 50%">
+  <div class="container">
 	  <div class="tm-content ">
       <div class="card mx-auto border-0 " id="card">
       <img class="card-img-top " id="img" src="http://assets.stickpng.com/thumbs/580b585b2edbce24c47b28e5.png" alt="Corded phone">
@@ -53,13 +45,13 @@
     </div>
       <form action="" method="POST" class="tm-contact-form">
         <div class="form-group">
-          <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Name" required="" />
+          <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"/>
         </div>
         <div class="form-group">
-          <input type="email" id="contact_email" name="contact_email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Email" required="" />
+          <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"/>
         </div>
         <div class="form-group">
-          <textarea rows="6" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Message..." required=""></textarea>
+          <textarea rows="6" id="contact_message" name="contact_message" class="form-control" placeholder="Message..."></textarea>
         </div>
         <div class="form-group text-right">
           <button type="submit" id="submit" class="btn text-light border-0">
@@ -76,47 +68,46 @@
 
 <!-- Footer -->
 <div class="mt-5 pt-5 pb-5 footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-xs-12 about-company">
-          <h1>Maher and Hall's Jam & Jellies</h1>
-          <p class="about-p">(704) 123-4567
-          <br>info@MHJamsandJellies.com</p>
-        </div>
-        <div class="col-lg-3 col-xs-12 links">
-          <h4 class="mt-lg-0 mt-sm-3 border-bottom">Quick Links</h4>
-            <ul class="m-0 p-0">
-                <a href="index.html" class="footerLink">
-                    <li class="footerLi">home</li>
-                </a>
-                <a href="aboutpage.html" class="footerLink">
-                    <li class="footerLi">about</li>
-                </a>
-                <a href="productspage.html" class="footerLink">
-                    <li class="footerLi">products</li>
-                </a>
-                <a href="contactpage.html" class="footerLink">
-                    <li class="footerLi">contact us</li>
-                </a>
-                <p>
-                  <a href="#"></a><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  <a href="#"></a><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                  <a href="#"></a><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </p>
-            </ul>
-        </div>
-        <div class="col-lg-4 col-xs-12 location">
-          <h4 class="mt-lg-0 mt-sm-4 border-bottom">Location</h4>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.568029751815!2d-80.8578516852674!3d35.21722736288734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f7f9fa0cf8b%3A0xba7da3bc2f70f979!2s1414%20S%20Tryon%20St%2C%20Charlotte%2C%20NC%2028203!5e0!3m2!1sen!2sus!4v1589311418405!5m2!1sen!2sus" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-xs-12 about-company">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/assets/jamsjellieslogo.png" width="175" height="175" class="d-inline-block align-top"
+              alt="Maher & Hall Logo">
+        </a>
       </div>
-      <div class="row mt-5">
-        <div class="col copyright">
-          <p><small class="text-white-50">© Maher and Hall's Jam & Jellies 2020. All Rights Reserved.</small></p>
-        </div>
+      <div class="col-lg-4 col-xs-12 links">
+        <h4 class="mt-lg-0 mt-sm-3 border-bottom">Quick Links</h4>
+          <ul class="m-0 p-0">
+              <a href="index.html" class="footerLink">
+                  <li class="footerLi">home</li>
+              </a>
+              <a href="aboutpage.html" class="footerLink">
+                  <li class="footerLi">about</li>
+              </a>
+              <a href="productspage.html" class="footerLink">
+                  <li class="footerLi">products</li>
+              </a>
+              <a href="contactpage.html" class="footerLink">
+                  <li class="footerLi">contact us</li>
+              </a>
+              <p>
+                <a href="#"></a><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"></a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"></a><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </p>
+          </ul>
+      </div>
+      <div class="col-lg-4 col-xs-12 location">
+        <h4 class="mt-lg-0 mt-sm-4 border-bottom">Location</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.568029751815!2d-80.8578516852674!3d35.21722736288734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f7f9fa0cf8b%3A0xba7da3bc2f70f979!2s1414%20S%20Tryon%20St%2C%20Charlotte%2C%20NC%2028203!5e0!3m2!1sen!2sus!4v1589311418405!5m2!1sen!2sus" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
     </div>
-    </div>
+      <div class="col copyright">
+        <p><small class="text-white-50">© Maher and Hall's Jam & Jellies 2020. All Rights Reserved.</small></p>
+      </div>
+  </div>
+  </div>
     
 <!-- JS for Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
