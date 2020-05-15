@@ -266,12 +266,7 @@ h1 {
 .col-sm-3 {
   background-color: #161e67;
   text-align: center;
-}
-
-.topHeading {
-  color: #ff5c5c;
-  text-align: center;
-  font-size: 75px;
+  border: none;
 }
 
 .card-title {
