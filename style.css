@@ -199,29 +199,7 @@ h1 {
   box-shadow: 5px 5px 10px 3px #ff5c5c;
   padding: 5%;
 }
-.about-us {
-  align-items: center;
-  font-weight: 600;
-  color: black;
-  text-align: center;
-  border: 2px solid white;
-  padding: 5%;
-  box-shadow: 5px 5px 10px 3px #ff5c5c;
-  background-color: white;
-  opacity: 0.8;
-  border-radius: 4px;
-}
-.about-title {
-  width: 100%;
-  height: 10%;
-  margin-top: 5%;
-  text-align: center;
-  font-weight: 800;
-  color: #161e67;
-  background-color: #ff5c5c;
-  opacity: 0.8;
-  border-radius: 4px;
-}
+
 .mission-title {
   padding-top: 10%;
   color: #ff5c5c;
